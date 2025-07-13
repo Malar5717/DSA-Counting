@@ -8,7 +8,7 @@ Approach:
 - Iterates once, adjusts vote count based on majority presence
 
 Learnings:
-- Clever use of votes lets you track the majority without extra space
+- If an element appears more than n/2 times, then it can cancel out every other element in the array, and still have votes left over.
 - Works only if majority element is guaranteed (> n/2)
 """
 
